@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Streamlit App",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/tokenization_5_Project.py",
+        "--server.port",
+        "8501"
+      ],
+      "env": {
+        "NLTK_DATA": "C:\\Users\\puroh\\Downloads\\NLP\\NLP1\\nltk_data"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
